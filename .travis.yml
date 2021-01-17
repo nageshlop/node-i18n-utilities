@@ -1,0 +1,13 @@
+dist: xenial
+arch:
+   - amd64
+   - ppc64le  
+language: node_js
+node_js:
+   - "10"
+addons:
+  apt:
+    packages: 
+      - build-essential 
+      - npm 
+      - wget 
